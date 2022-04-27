@@ -28,6 +28,7 @@ class _FahrenheitToCelsiusState extends State<FahrenheitToCelsius> {
       child: Scaffold(
         drawer: const ConverterDrawer(),
         appBar: AppBar(
+          centerTitle: true,
           backgroundColor: Colors.black26,
           title: const Text('Fahrenheit - Celsius'),
         ),

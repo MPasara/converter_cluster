@@ -27,6 +27,7 @@ class _KgToLbsState extends State<KgToLbs> {
       },
       child: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           backgroundColor: Colors.black26,
           title: const Text('KG - LBS'),
         ),

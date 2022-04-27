@@ -26,6 +26,7 @@ class _MilesToKmState extends State<MilesToKm> {
       },
       child: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           title: const Text('MILES - KM'),
           backgroundColor: Colors.black26,
         ),

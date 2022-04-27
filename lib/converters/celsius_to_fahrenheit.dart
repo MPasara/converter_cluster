@@ -25,6 +25,7 @@ class _CelsiusToFahrenheitState extends State<CelsiusToFahrenheit> {
       },
       child: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           backgroundColor: Colors.black26,
           title: const Text('Celsius - Fahrenheit'),
         ),
